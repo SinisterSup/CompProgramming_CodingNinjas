@@ -24,7 +24,7 @@ There will be ‘q’ lines of output each having two space separated integers d
 3 2      
 ###### Explanation:       
 Shreya visits the "Momos Market" for only one day. She has 11 INR to spend. She can buy 3 momos, each from the first 3 shops. 
-She would 9 INR (2 + 1 + 6) for the same and hence, she will save 2 INR.        
+She would give 9 INR (2 + 1 + 6) for the same and hence, she will save 2 INR.        
 
 
 ````
