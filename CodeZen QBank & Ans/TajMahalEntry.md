@@ -21,3 +21,8 @@ Aahad at Window 1: [2, 3, 2, 0]
 Aahad at Window 2: [1, 2, 1, 0]     
 Aahad at Window 3: [0, 1, 0, 0]     
 So, when Aahad is at window 3, he got zero people before him. Hence, he will get the ticket at window 3.    
+
+
+````
+Code Goes Here
+````
