@@ -27,8 +27,6 @@ Shreya visits the "Momos Market" for only one day. She has 11 INR to spend. She 
 She would give 9 INR (2 + 1 + 6) for the same and hence, she will save 2 INR.        
 
 
-
-
 ````
   Code goes Here
 ````
