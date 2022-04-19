@@ -36,6 +36,25 @@ Hence the sum is 15 (0+1+1+9+4).
 
 ````
 
- Code Goes Here
+ def murderd(arr,n):
+    notes = []
+    for i in range(n):
+        sum_l = list(filter(lambda x: x<arr[i], arr[:i]))
+        sumd = sum(sum_l)
+        notes.append(sumd)
+        
+    return sum(notes)
+
+def main():
+    t = int(input())
+    while t>0:
+        n = int(input())
+        arr = list(map(int, input().strip().split()))
+        
+        print(murderd(arr,n))
+        t -= 1
+        
+if __name__ == "__main__":
+    main()
 
 ````
