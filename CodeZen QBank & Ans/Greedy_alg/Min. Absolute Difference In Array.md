@@ -17,3 +17,8 @@ Minimum difference
 2 9 0 4 5     
 ##### Sample Output :    
 1     
+
+````
+Code Goes Here
+
+````
