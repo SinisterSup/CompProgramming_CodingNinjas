@@ -31,18 +31,18 @@ def ticket_counter(arr):
 def main():
     n = int(input())
     windw_arr = list(map(int, input().strip().split()))
-    h = 0
+    ahaad_pntr = 0
     while True:
         try:
-            if windw_arr[h] == 0:
-                h += 1
+            if windw_arr[ahaad_pntr] == 0:
+                ahaad_pntr += 1
                 break
             else:
-                h += 1
+                ahaad_pntr += 1
         except IndexError:
-            h = 0
-            if windw_arr[h] == 0:
-                h += 1
+            ahaad_pntr = 0
+            if windw_arr[ahaad_pntr] == 0:
+                ahaad_pntr += 1
                 break
         windw_arr = ticket_counter(windw_arr)
         
