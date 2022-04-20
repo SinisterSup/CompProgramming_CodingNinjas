@@ -46,7 +46,7 @@ def main():
                 break
         windw_arr = ticket_counter(windw_arr)
         
-    print(h)
+    print(ahaad_pntr)
 
     
 if __name__ == "__main__":
