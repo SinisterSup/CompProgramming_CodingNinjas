@@ -24,7 +24,7 @@ So, when Aahad is at window 3, he got zero people before him. Hence, he will get
 
 
 ````
-```
+
 def ticket_counter(arr):
     return list(map(lambda x:x-1 if x!=0 else 0, arr))
     
@@ -52,5 +52,4 @@ def main():
 if __name__ == "__main__":
     main()
     
-```
 ````
