@@ -24,5 +24,33 @@ So, when Aahad is at window 3, he got zero people before him. Hence, he will get
 
 
 ````
-Code Goes Here
+```
+def ticket_counter(arr):
+    return list(map(lambda x:x-1 if x!=0 else 0, arr))
+    
+def main():
+    n = int(input())
+    Ai_arr = list(map(int, input().strip().split()))
+    h = 0
+    while True:
+        try:
+            if Ai_arr[h] == 0:
+                h += 1
+                break
+            else:
+                h += 1
+        except IndexError:
+            h = 0
+            if Ai_arr[h] == 0:
+                h += 1
+                break
+        Ai_arr = ticket_counter(Ai_arr)
+        
+    print(h)
+
+    
+if __name__ == "__main__":
+    main()
+    
+```
 ````
