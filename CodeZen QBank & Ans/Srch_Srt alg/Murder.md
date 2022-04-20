@@ -34,7 +34,7 @@ For the fifth number, the contribution to the sum is 4 (1+3).
 Hence the sum is 15 (0+1+1+9+4). 
 
 
-````
+```py
 
  def murderd(arr,n):
     notes = []
