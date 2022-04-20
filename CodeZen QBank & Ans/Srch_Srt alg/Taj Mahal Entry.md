@@ -23,7 +23,7 @@ Aahad at Window 3: [0, 1, 0, 0]
 So, when Aahad is at window 3, he got zero people before him. Hence, he will get the ticket at window 3.    
 
 
-````
+````py
 
 def ticket_counter(arr):
     return list(map(lambda x:x-1 if x!=0 else 0, arr))
