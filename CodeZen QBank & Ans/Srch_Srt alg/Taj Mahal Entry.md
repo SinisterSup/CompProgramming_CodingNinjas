@@ -23,28 +23,28 @@ Aahad at Window 3: [0, 1, 0, 0]
 So, when Aahad is at window 3, he got zero people before him. Hence, he will get the ticket at window 3.    
 
 
-```py
+````py
 
 def ticket_counter(arr):
     return list(map(lambda x:x-1 if x!=0 else 0, arr))
     
 def main():
     n = int(input())
-    Ai_arr = list(map(int, input().strip().split()))
+    windw_arr = list(map(int, input().strip().split()))
     h = 0
     while True:
         try:
-            if Ai_arr[h] == 0:
+            if windw_arr[h] == 0:
                 h += 1
                 break
             else:
                 h += 1
         except IndexError:
             h = 0
-            if Ai_arr[h] == 0:
+            if windw_arr[h] == 0:
                 h += 1
                 break
-        Ai_arr = ticket_counter(Ai_arr)
+        windw_arr = ticket_counter(windw_arr)
         
     print(h)
 
@@ -52,4 +52,4 @@ def main():
 if __name__ == "__main__":
     main()
     
-```
+````
