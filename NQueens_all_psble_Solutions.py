@@ -14,7 +14,7 @@ def initialize(n):
 def printboard():
     for row in sorted(board['queen'].keys()):
         print((row, board['queen'][row]), end=" ")
-    print(" ")
+    print("")
 
 
 def free(i, j):
