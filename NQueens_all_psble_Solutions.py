@@ -41,7 +41,7 @@ def undoqueen(i, j):
 def placequeen(i):
     n = len(board['queen'].keys())
     for j in range(n):
-        if free(i, j):
+        if free(i, j): 
             addqueen(i, j)
             if i == n - 1:
                 printboard()
